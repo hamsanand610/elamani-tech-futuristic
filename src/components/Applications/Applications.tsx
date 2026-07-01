@@ -120,7 +120,7 @@ export default function Applications() {
         </div>
 
         {/* Hexagonal Staggered Grid */}
-        <div className="flex flex-wrap justify-center gap-x-2 gap-y-12 sm:gap-y-0 lg:gap-y-0 max-w-5xl mx-auto pt-6 pb-24">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 justify-items-center gap-x-4 gap-y-10 sm:gap-y-0 max-w-[800px] mx-auto pt-6 pb-24">
           {items.map((item, idx) => (
             <HexagonItem key={idx} {...item} />
           ))}

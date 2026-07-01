@@ -30,7 +30,7 @@ export default function Hero() {
   return (
     <section 
       id="hero" 
-      className="relative min-h-screen w-full flex items-center justify-center pt-24 overflow-hidden z-10"
+      className="relative min-h-screen w-full flex items-center justify-center pt-24 pb-32 overflow-hidden z-10"
     >
       {/* Background blueprint elements for engineering feel */}
       <div className="absolute inset-0 circuit-bg opacity-30 pointer-events-none" />
@@ -79,7 +79,7 @@ export default function Hero() {
           {/* CTAs */}
           <motion.div 
             variants={itemVariants}
-            className="flex flex-col sm:flex-row items-stretch sm:items-center gap-4 w-full sm:w-auto"
+            className="flex flex-col sm:flex-row items-stretch sm:items-center gap-4 w-full sm:w-auto mb-12"
           >
             <button
               onClick={() => handleScrollTo('#products')}
