@@ -3,8 +3,8 @@ import { Quote } from 'lucide-react';
 
 export default function Founder() {
   return (
-    <section 
-      id="founder" 
+    <section
+      id="founder"
       className="relative min-h-screen w-full flex items-center justify-center bg-bg-dark py-24 overflow-hidden z-10"
     >
       {/* Dark vignette overlay for cinematic spotlight feel */}
@@ -13,7 +13,7 @@ export default function Founder() {
 
       <div className="max-w-7xl mx-auto px-6 w-full relative z-30">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 items-center">
-          
+
           {/* Left Column: Portrait representation / abstract silhouette */}
           <div className="lg:col-span-5 flex justify-center relative">
             <div className="w-72 h-96 sm:w-80 sm:h-[450px] rounded-2xl relative overflow-hidden glass-panel border border-white/10 shadow-2xl flex items-center justify-center group">
@@ -36,7 +36,7 @@ export default function Founder() {
                     <circle cx="78" cy="30" r="3" fill="#f97316" className="origin-center animate-[spin_8s_linear_infinite]" style={{ transformOrigin: '50px 50px' }} />
                   </svg>
                 </div>
-                
+
                 <div className="space-y-1.5 text-center font-mono select-none">
                   <div className="text-[10px] text-brand-cyan font-bold tracking-widest uppercase animate-pulse">
                     SYS_DIAGNOSTIC: ACTIVE
@@ -74,7 +74,7 @@ export default function Founder() {
             {/* Founder details */}
             <div className="space-y-2">
               <h3 className="font-mono text-base font-bold text-white uppercase tracking-wider">
-                E. Vigneshwar
+                CEO of ELAMANI TECH
               </h3>
               <p className="font-mono text-xs text-brand-cyan uppercase tracking-widest">
                 Founder &amp; Chief Robotics Architect, Elamani Tech
